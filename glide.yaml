@@ -1,0 +1,4 @@
+package: github.com/tamalsaha/kube-deepcopy-bug
+import:
+- package: k8s.io/code-generator
+  version: kubernetes-1.9.0
