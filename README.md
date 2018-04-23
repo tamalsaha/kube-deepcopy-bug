@@ -1,5 +1,7 @@
 # kube-deepcopy-bug
 
+**Fixed in Kubernetes 1.10 release**
+
 ```console
 $ ./hack/codegen.sh 
 ++ go env GOPATH
@@ -22,3 +24,6 @@ apis/demo/v1alpha1/zz_generated.deepcopy.go:37:9: (*in).DeepCopyInto undefined (
 ~/go/src/github.com/tamalsaha/kube-deepcopy-bug
 
 ```
+
+Issue:
+https://github.com/kubernetes/code-generator/issues/40
